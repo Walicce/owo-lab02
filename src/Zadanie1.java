@@ -14,3 +14,5 @@ public class Zadanie1 {
   	if (ok) System.out.println("Wynik zapisany do pliku: "
                                              + FILE_NAME);
   	else System.out.println("Błąd");
+ }
+}
