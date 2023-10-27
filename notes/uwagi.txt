@@ -1,3 +1,8 @@
  Notatka 1
 W zadaniu 1 użyłem typu BigDecimal, ponieważ ciąg Fibonacciego
 szybko przekracza typ long.
+Notatka 2
+Zauważyłem, że w trakcie wyliczania wyrazów ciągu powtarzane
+są wielokrotnie te same obliczenia. Wynika to z faktu, że ciąg
+jest zawsze liczony od początku. W wersji 2 obliczenia w przód
+są zoptymalizowane.
